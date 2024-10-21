@@ -39,8 +39,8 @@ def valid_enrollment_year(year):
 def create_connection():
     return mysql.connector.connect(
         host='localhost',
-        user='root',
-        password='P@y@L-29',
+        user='Your Username',      #Change this
+        password='Your Password',  #Change this
         database='studentmanagement'
     )
 
